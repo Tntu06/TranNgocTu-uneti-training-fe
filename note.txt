@@ -43,3 +43,31 @@ Class dùng phổ biến trong các th
 Id dùng khi muốn độ ưu tiên cao hơn class
 ID Hỗ trợ JavaScript DOM
 ID sử dụng cho các thành phần ít lặp lại
+
+Selector
+1.Chọn tất cả thẻ đó
+p { }
+div { }
+ul { }
+2.Phần tử có class=""
+.class { }
+3.ID selector id=""
+#id{ }
+4.class / id (KHÔNG dấu cách)
+.box.active { }
+div#main { }
+5.Group selector
+h1, h2, h3 { }
+6.selector (dấu cách) p nằm bên trong div (mọi cấp)
+div p { }
+7.Child selector (>)
+div > p { } #p con trực tiếp của div
+8.Adjacent sibling (+)
+p + ul { }
+#ul ngay sau p
+#Chỉ 1 phần tử
+9.General sibling (~)
+p ~ ul { }
+#TẤT CẢ ul
+#Sau p
+#Cùng cha
