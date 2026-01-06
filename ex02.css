@@ -1,0 +1,14 @@
+p ~ ul{
+    color: brown;
+}
+
+p + ul{
+    color: blueviolet;
+}
+
+ul ~ p{
+    background-color: yellowgreen;
+}
+ul + div{
+    color: red;
+}
