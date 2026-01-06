@@ -1,0 +1,48 @@
+.Ho_Ten{
+    color: aqua;
+    font-size: medium;
+    background-color: rgba(214, 217, 20, 0.825);
+}
+h1{
+    color: red;
+}
+
+.Gioi_Tinh{
+    color: blue;
+    background-color: aquamarine;
+}
+
+#passWord{
+    font-style: italic;
+}
+
+.item1 .item2{
+    color: green
+}
+
+.item1 #item1{
+    color: red
+}
+
+#item3 #item4{
+    color: blue;
+}
+
+#item2 .item2{
+    color: blueviolet;
+}
+
+/* main .primary-menu > ul > li > a{
+    background-color: aqua;
+} */
+.primary-menu > ul > li > a{
+    background-color: rgb(72, 255, 0);
+}
+.primary-menu > ul > li > ul > ul > ul > li > a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.primary-menu > ul > li > ul > ul  li  {
+    background-color: aqua;
+}
