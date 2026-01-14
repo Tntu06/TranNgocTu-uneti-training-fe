@@ -1,0 +1,102 @@
+/* Trạng thái bình thường */
+.btn {
+  background-color: rgb(196, 253, 11);
+}
+
+/* Khi di chuột vào: Nút đổi màu tối hơn chút */
+.btn:hover {
+  background-color: rgb(33, 3, 231);
+  cursor: pointer;
+}
+
+/* Khi nhấn vào: Nút hơi lún xuống */
+.btn:active {
+  transform: scale(0.5);
+  background-color: red;
+}
+
+.title:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.linnk:focus {
+  background-color: purple;
+}
+/*focus chỉ có thể áp dụng được với input textarea select button a,
+còn văn bản chỉ dùng được khi có thuộc tính tabindex="0" */
+.title:focus {
+  background-color: purple;
+  color: white;
+}
+
+.title::selection {
+  color: yellow;
+  background-color: blue;
+}
+.Input:focus {
+  background-color: antiquewhite;
+  border: 1px solid red;
+}
+
+.Input:active {
+  background-color: blue;
+}
+
+.gender-field label input:checked ~ span {
+  color: aquamarine;
+}
+
+.Menu_Jobs label input:checked ~ span {
+  color: red;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.menu_box .btn_menu {
+  background-color: green;
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_box .check_btn,
+.menu_box .primary_menu {
+  display: none;
+}
+
+.menu_box .check_btn:checked ~ .primary_menu {
+  display: block;
+}
+
+.form-register .field-item:disabled {
+  background-color: aqua;
+}
+
+.content p:empty {
+  background-color: royalblue;
+  height: 10px;
+}
+
+.content p:not(.highlight) {
+  color: silver;
+}
+
+.list-item li:last-child {
+  color: red;
+}
+
+.list-item li:first-child {
+  color: blue;
+}
+
+.list-item li:first-of-type {
+  font-style: italic;
+}
+
+.list-item li:last-of-type {
+  font-style: italic;
+}
+
+.product-list .product-item:nth-child(2n) {
+  color: red;
+}

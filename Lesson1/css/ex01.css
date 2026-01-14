@@ -1,0 +1,78 @@
+/*CSS dành cho class Ho_Ten*/
+.Ho_Ten {
+  color: aqua;
+  font-size: medium;
+  background-color-color: rgba(214, 217, 20, 0.825);
+}
+/* Chọn tất cả các thẻ tiêu đề h1 trên trang */
+h1 {
+  color: red;
+}
+/* Chọn phần tử có class là "Gioi_Tinh" (bao quanh các radio button) */
+.Gioi_Tinh {
+  color: blue;
+  background-color-color: aquamarine;
+}
+/* Chọn phần tử có ID duy nhất là "passWord" (nhãn của ô Password) */
+#passWord {
+  font-style: italic;
+}
+/* Selector hậu duệ: 
+Chọn phần tử có class "item2" nằm bên trong phần tử có class "item1" */
+.item1 .item2 {
+  color: green;
+}
+/* Selector hậu duệ: 
+Chọn phần tử có ID "item1" nằm bên trong phần tử có class "item1" */
+.item1 #item1 {
+  color: red;
+}
+/* Selector hậu duệ: 
+Chọn phần tử có ID "item4" nằm bên trong phần tử có ID "item3" */
+#item3 #item4 {
+  color: blue;
+}
+/* Selector hậu duệ: 
+Chọn phần tử có class "item2" nằm bên trong phần tử có ID "item2" */
+#item2 .item2 {
+  color: blueviolet;
+}
+
+/* main .primary-menu > ul > li > a{
+    background-color-color: aqua;
+} */
+/* Selector con trực tiếp (>): Chọn các thẻ <a> là con trực tiếp của <li>, 
+   mà <li> là con của <ul>, nằm trong class "primary-menu" (Menu cấp 1) */
+.primary-menu > ul > li > a {
+  background-color-color: rgb(72, 255, 0);
+}
+/* Selector con trực tiếp đa cấp: Chọn thẻ <a> nằm sâu trong 3 tầng <ul> (Menu đa cấp)
+   Thường dùng để định dạng các sub-menu (menu con) ở cấp rất sâu */
+.primary-menu > ul > li > ul > ul > ul > li > a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.primary-menu > ul > li > ul > ul li {
+  background-color-color: aqua;
+}
+
+/* Selector kết hợp: Chỉ chọn thẻ <p> nào có đồng thời class là "block" */
+p.block {
+  color: aquamarine;
+  font-style: italic;
+  background-color-color: blueviolet;
+}
+/* Selector kết hợp: Chỉ chọn thẻ <div> nào có đồng thời class là "block" */
+div.block {
+  color: blue;
+  background-color-color: black;
+}
+/* Selector đa class: Chọn phần tử có cả 2 class "text" và "element" cùng lúc */
+.text.element {
+  color: gray;
+}
+/* Selector đa class: Chọn phần tử có cả 2 class "title" và "element" cùng lúc */
+.title.element {
+  color: goldenrod;
+}

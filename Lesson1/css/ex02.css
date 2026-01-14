@@ -1,0 +1,48 @@
+/* p ~ ul{
+    color: brown;
+}
+
+p + ul{
+    color: blueviolet;
+}
+
+ul ~ p{
+    background-color-color: yellowgreen;
+}
+ul + div{
+    color: red;
+} */
+
+/*
+select1 ~ select2 => Bên html selector1 nằm trước selector2
+select1 và select2 phải ngang hàng với nhau
+select1 và select2 phải cùng cha
+select2 nằm sau nhưng k cần liên tiếp
+*/
+
+.content .block {
+  color: yellow;
+}
+/* chỉ css con trực thuộc element  */
+.content .element > p {
+  color: blue;
+}
+/* css cho các phần tử có trong element */
+.content .block ~ .element p ~ span {
+  color: green;
+}
+
+.content .block ~ .element p {
+  color: red;
+}
+
+.text p + p {
+  color: blueviolet;
+}
+/*
+select1 + select2 chỉ áp dụng cho các thành phần liên tiếp nhau
+*/
+
+.menu ul li + li {
+  color: red;
+}

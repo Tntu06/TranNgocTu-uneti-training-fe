@@ -1,0 +1,31 @@
+.title {
+  color: blueviolet;
+}
+
+/* .title::before{
+    content: "print('Hello ";
+    
+} */
+
+/* .title::after{
+    content: "')";
+} */
+
+.title::first-letter {
+  color: red;
+}
+/* 
+.title::first-line{
+    background-color-color: aquamarine;
+} */
+
+.title::selection {
+  background-color-color: blueviolet;
+}
+.title::before {
+  content: "";
+  background-color: green;
+  width: 15px;
+  height: 20px;
+  display: inline-block;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ex3.css" />
+    <title>Lớp ảo trong css</title>
+  </head>
+  <body>
+    <input type="text" class="Input" />
+    <button type="button" class="btn">click me</button>
+    <p class="title">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum rem
+      accusantium a maiores dignis simos iure explicabo voluptatem dolor
+      molestias repudiandae consequuntur voluptatum quis ab, fuga unde, laborum
+      similique, quam at!
+    </p>
+    <p class="title" tabindex="0">Đây là đoạn văn có thể focus</p>
+
+    <a href="sangtacviet.app" class="linnk">Chuyển hướng</a>
+    <form action="">
+      <p class="gender-field">
+        Giới tính <br />
+        <label class="" for="male">
+          <input type="radio" name="gender" value="1" id="male" />
+          <span>Nam</span>
+        </label>
+        <label class="" for ="female">
+          <input type="radio" name="gender" value="0" id="female" />
+          <span>Nữ</span>
+        </label>
+      </p>
+      <div class="Menu_Jobs">
+        <h3>Menu List Jobs:</h3>
+        <p>
+          <label for="job_1">
+            <input type="checkbox" id="job_1" />
+            <span>Job 1</span>
+          </label>
+        </p>
+        <p>
+          <label for="job_2">
+            <input type="checkbox" id="job_2" />
+            <span>Job 2</span>
+          </label>
+        </p>
+        <p>
+          <label for="job_3">
+            <input type="checkbox" id="job_3" />
+            <span>Job 3</span>
+          </label>
+        </p>
+      </div>
+    </form>
+    <div class="menu_box">
+      <label for="btn_menu" class="btn_menu">Menu</label>
+      <input type="checkbox" id="btn_menu" class="check_btn"/>
+      <nav class="primary_menu">
+        <ul>
+          <li><a href="#">List 1</a></li>
+          <li><a href="#">List 2</a></li>
+          <li><a href="#">List 3</a></li>
+          <li><a href="#">List 4</a></li>
+        </ul>
+      </nav>
+    </div>
+    <form action="" class="form-register">
+      <p><input type="text" class="field-item" placeholder="Tên đăng nhập"></p>
+      <p><input type="password" class="field-item" placeholder="Mật khẩu"></p>
+      <p><input type="text" class="field-item" placeholder="Họ và tên" disabled></p>
+      <button type="submit">Đăng ký</button>
+    </form>
+
+    <div class="content">
+      <p>Unicode Academy</p>
+      <p></p>
+      <p class="highlight"> Unicode Academy</p>
+      <p>Unicode Academy</p>
+    </div>
+
+    <ul class="list-item">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+
+    <div class="product-list">
+      <div class="product-item">
+        <h3>Sản phẩm 1</h3>
+      </div>
+      <div class="product-item">
+        <h3>Sản phẩm 2</h3>
+      </div>
+      <div class="product-item">
+        <h3>Sản phẩm 3</h3>
+      </div>
+      <div class="product-item">
+        <h3>Sản phẩm 4</h3>
+      </div>
+      <div class="product-item">
+        <h3>Sản phẩm 5</h3>
+      </div>
+    </div>
+  </body>
+</html>

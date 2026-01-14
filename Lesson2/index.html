@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="html\Lesson2\css\styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>
+          <span>Phiếu phản hồi người dùng</span>
+        </h2>
+      </header>
+      <form action="/test.txt">
+        <table width="50%">
+          <tr>
+            <td>
+              <label for="fullname">Họ Tên</label> <br />
+              <input
+                type="text"
+                id="fullname"
+                name="name"
+                placeholder="Họ và Tên"
+                required
+              />
+            </td>
+            <td>
+              <label for="theme">Chủ Đề</label> <br />
+              <input
+                type="text"
+                id="theme"
+                name="text"
+                placeholder="Chủ Đề"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="Input-Content">
+              <label for="content">Nội Dung Phản Ánh</label> <br />
+              <textarea
+                name="name"
+                id="content"
+                width="100%"
+                required
+              ></textarea>
+            </td>
+            <td class="Input-Content">
+              <label for="picture">Hình ảnh đính kèm</label> <br />
+              <input type="file" id="picture" name="picture" required />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="btn">
+              <button type="submit">Gửi ý kiến</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

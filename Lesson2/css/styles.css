@@ -1,0 +1,31 @@
+.wrapper h2 span {
+  border: 2px solid green;
+  background-color: aquamarine;
+}
+
+.wrapper table label {
+  color: rgb(3, 1, 1);
+  background-color: rgb(50, 169, 190);
+  font-style: italic;
+}
+
+.wrapper table input {
+  background-color: #ffff;
+  color: black;
+}
+
+.wrapper form {
+  background-color: aqua;
+}
+
+.wrapper table .btn {
+  text-align: center;
+  border-top: 1px solid green;
+}
+
+.wrapper table .btn button {
+  background-color: green;
+  color: aliceblue;
+  font-size: medium;
+  font-style: italic;
+}
