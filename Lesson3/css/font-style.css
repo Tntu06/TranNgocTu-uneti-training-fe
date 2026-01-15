@@ -1,0 +1,42 @@
+/*
+
+Thuộc tính font-style
+-Tác dụng:Thay đổi kiểu chữ(Đứng, nghiêng)
+-Cú pháp: font-style <value>
++ font-style: tên thuộc tính
++tên kiểu
+++normal: mặc định chữ đứng
+++ italic: chữ nghiêng
+
+=> lưu ý:Việc thay đổi kiểu chữ dựa vào font chữ
+
+Thuộc tính font-weight
+Tác dịng:Thay đổi độ dày của chữ
+CÚ pháp: font-weight<value>
+font-weight: tên thuộc tính
+value: giá trị
++ normal: mặc định
++ 100, 200, 300, .....
++bold
++bolder
+
+=> lưu ý:Việc thay đổi độ dày chữ dựa vào font chữ
+
+*/
+
+@font-face {
+  font-family: "SVN-Hottroof-Semhesta";
+  src: url(../fonts/SVN-Hottroof-Semhesta.otf);
+}
+
+.text {
+  font-style: italic;
+  font-size: ;
+}
+
+.content {
+  font-family: "SVN-Hottroof-Semhesta";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 50px;
+}
