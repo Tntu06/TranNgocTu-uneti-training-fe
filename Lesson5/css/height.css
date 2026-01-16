@@ -1,0 +1,29 @@
+/*
+Thuộc tính height
++Tác dụng: Thiết lập chiều cao cho các thành phần html( chỉ block)
+Cú pháp height value+unit
+value: Giá trị chiều cao
+unit: Đơn vị
+
+Lưu ý:
+phần html nếu không thiết lập chiều cao sẽ là auto
+- Đơn vị vh sẽ bám theo khung nhìn ()
+Các thuộc tính liên quan:
+- max-height
+- min-height
+=> Tư duy giong max-width, min-width
+
+*/
+
+.content {
+  height: 500px;
+  border: 1px solid red;
+}
+
+
+.block {
+  width: 100px;
+  height: 100vh;
+  background: green;
+  color: #fff;
+}

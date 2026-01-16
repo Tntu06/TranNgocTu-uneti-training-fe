@@ -1,0 +1,9 @@
+.galaxy-list img {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.galaxy-list img:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,25 @@
+/*
+Thuộc tính text-align
+- Tác dụng: Căn chỉnh văn bản và các thẻ inline
+- Cú pháp: text-align: value
++ left
++ center
++ right
++ justify
+
+Lưu ý:
+- Thuộc tính text-align không chỉ dừng lại ở text
+- Thuộc tính phải phải viết vào thẻ block để căn chỉnh tất cả các
+thẻ khác bên trong
+Thuộc tính mở rộng:
+text-align-last: Chỉ tác dụng với dòng cuối cùng của văn bản
+*/
+.btn {
+}
+
+.btn-wrap {
+  width: 400px;
+  border: 1px solid red;
+  /* text-align: center; */
+  text-align: justify;
+}

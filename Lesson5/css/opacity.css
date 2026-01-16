@@ -1,0 +1,27 @@
+/*
+Thuộc tính opacity
+Tác dụng: Làm mờ các thành phần html và các thành phần bên trong nó
+-Cú pháp: opacity value
+=> các giá trị value nhận giá trị từ 0 dến 1
+
+Lưu ý: opacity sẽ tác dụng tất cả các thành phần bên trong nó( text, phông chữ, ....)
+Nếu muốn giảm opacity của background=> áp dụng color opacity
+-  Nếu muốn tạo 1 nền mờ nằm trên 1 thành phần nào đó=> dùng đến overlay(học ở phần position)
+*/
+
+.text {
+  color: #fff;
+  background-color: green;
+  opacity: 0.5;
+}
+
+.content {
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.content h1 {
+  color: red;
+}

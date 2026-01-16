@@ -1,0 +1,66 @@
+/*
+Thuộc tính padding
+-Tác dụng: thay đổi khoảng cách giữa nội dung bên trong so với viền của thành phần bên ngoài
+-cú pháp 1: padding: value+unit => căn chỉnh 4 góc
+=> value: Giá trị kích thước + đơn vị
+=> Đơn vị tương đối, tuyệt đối như đã học
+=> Riêng đơn vị % sẽ theo width, height của thành phần đang tác động
+
+Cú pháp 2: padding: value1 value2
+value1: top = bottom
+value2 left = right
+
+Cú pháp 3: padding value1 value2 value3
+value1: top
+value2: left = right
+value3 bottom
+
+Cú pháp 4: padding value1 value2 value3 value4
+value1: top
+value2:right
+value3 bottom
+value4:  left
+
+Các thuộc tính mở rộng:
+padding-top
+padding-bottom
+padding-left
+padding-right
+
+
+Thuộc tính box-sizing:
+-Tác dụng; Điều chỉnh sự ảnh hưởng về width liên quan đến padding và 
+border(Khi thêm padding, border => width sẽ thay đổi)
++ Sử dụng box-sizing để cho phép thay đổi hay k
+
+- Cú pháp: box-sizing: value
++content-box: cho phép sự thay đổi
++border-box: không cho phép sự thay đổi
+
+Lưu ý khi sử dụng padding
+-padding hoạt động tốt khi thành phần html là block mặc định hoặc 
+inline-block
+-Nếu sử dụng padding bên trong inline => bị ảnh hưởng tới các thành phần 
+padding bên ngoài
+*/
+
+.content {
+  background-color: green;
+  color: aliceblue;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.block {
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid red;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid green;
+  padding: 10px 30px;
+}

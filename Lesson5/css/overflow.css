@@ -1,0 +1,26 @@
+/*
+Thuộc tính overflow
+- Tác dụng: Ngăn tình trạng tràn khung trong CSS
+- Cú pháp: overflow: value
++visible: Cho phép tràn khung( mặc định)
++hidden: ẩn phần bị tràn khỏi khung
++scroll: tạo thanh cuộn để xem phần bị ẩn(Luôn tạo thanh cuộn)
++auto: giống scroll chỉ khác nếu nội dung bị tràn 
+mới tạo thanh cuộn(Khuyến khích dùng)
+
+Ứng dụng thực tế:
+1.Ngăn tình trạng tự động trôi của thuộc tính float
+2.Áp dụng cho kỹ thuật clearfix
++SỬ dụng để tọa thanh cuộn nếu thành phần con quá nhiều
+
+
+Thuộc tính mở rộng của overflow:
+overflow-x: áp dụng trục x
+overflow-y: áp dụng trục y
+*/
+.content {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  overflow: auto;
+}

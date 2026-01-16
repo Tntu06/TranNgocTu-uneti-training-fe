@@ -1,0 +1,31 @@
+.service-section {
+  height: 400px;
+  background: url("../imgs/anh.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.service-section .service-inner {
+  width: 60%;
+  text-align: center;
+}
+
+.service-section .service-inner .title-primary {
+  color: red;
+}
+
+.service-section .service-inner .btn {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  border: 1px solid;
+}
+
+.service-section .service-inner .btn:hover{
+    background-color: red;
+}
+
+.service-section .service-inner .btn-wrap {
+  padding-top: 10px;
+}
