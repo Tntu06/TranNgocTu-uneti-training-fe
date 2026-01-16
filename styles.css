@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "MJ-VIP-Daytonica";
+  src: url("./Lesson3/fonts/MJ-VIP-Daytonica.ttf");
+}
+
+.menu .danhsach {
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 20px;
+  font-family: "MJ-VIP-Daytonica";
+}
+
+.menu .check_label,
+.menu .list-lesson {
+  display: none;
+}
+
+.menu .check_label:checked ~ .list-lesson {
+  display: block;
+}

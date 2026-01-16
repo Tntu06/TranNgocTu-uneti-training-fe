@@ -1,0 +1,51 @@
+/*
+Thuộc tinh border-radius
+- Tác dụng: Bo góc cho các thành phần trong trang web
+**Cú pháp 1: border-radius: value (Bo 4 góc)
++ border-radius: Tên thuộc tính
++ Value: Kích thước tuyệt đối, tương đối
+
+**Cú pháp 2: border-radius: value1 value2
++value1: top left bottom right
+value2: top right botttom left
+
+
+** Cú pháp 3: border-radius: value1 value2 value3
+value1: top left
+value2: top right = bottom left
+value3: bottom right
+
+
+** Cú pháp 4: border-radius: value1 value2 value3 value4
+value1: top left
+value2: top right 
+value3: bottom right
+value4: bottom left
+
+Lưu ý: Nếu muốn thành hình tròn
++width, height bằng nhau
++ border-radius bằng 50% hoặc 100%
+
+-Nếu muốn loại bỏ bo góc thì ta thiết lập border-radius: 0
+
+Các thuộc tính mở rộng của border-radius:
+border-top-left-radius
+border-top-right-radius
+border-bottom-left-radius
+border-bottom-right-radius
+*/
+
+.content {
+  background: green;
+  color: #fff;
+  border-radius: 10px 50px;
+}
+
+.block {
+  width: 300px;
+  height: 300px;
+  background: red;
+  margin: 50px auto;
+  /*border-radius: 10px 0 0 0*/
+  border-top-left-radius: 10px;
+}
